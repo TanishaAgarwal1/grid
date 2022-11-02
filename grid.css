@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: whitesmoke;
+    font-family: 'Barlow Semi Condensed',sans-serif;
+    line-height: 1.7;
+    font-size: 13px;
+}
+.testimony{
+    
+    width: 2300px;
+    margin: 100 px auto;
+    margin-left: 160px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(4,250px);
+    
+
+}
+.cardpurple:nth-of-type(1){
+    grid-column: 1/3;
+    background-color: rgb(184, 118, 246);
+}
+.cardpurple:nth-of-type(3){
+    grid-row: 1/3;
+    grid-column: 4/5;
+    background-color: bisque;
+
+}
+.cardpurple:nth-of-type(5){
+    grid-column: 2/4;
+}
+.cardpurple{
+    font-size: 15px;
+    border: 3px solid black;
+    border-radius: 15px;
+    margin: 20px;
+    background-image: url(/quot.png);
+    background-position: top 10px right 5px ;
+    background-repeat: no-repeat;
+    box-shadow:  rgb(142, 97, 81) 0px 2px 4px 4px;
+
+
+
+}
+
+img{
+    border-radius: 50%;
+    border: 2px solid chocolate;
+    margin-right: 20px;
+}
+.classhead{
+    display: flex;
+}
+#logo
+{
+    opacity: 50%;
+    font-size: 13px;
+    color: black;
+}
+.cardquote{
+    font-size: 18px;
+}
+.cardinfo{
+    font-size:16px ;
+    margin-bottom: 10px;
+    line-height: 1.5em;
+
+}
